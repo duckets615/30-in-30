@@ -144,17 +144,22 @@ table {
   align-items: center;
   justify-content: center;
   width: 10rem;
-  transform: all 0.7s ease;
+  height: 5rem;
   border: 3pt solid black;
   margin: 30rem 1rem;
   padding: 3rem;
-  height: 5rem;
+  transform: all 0.7s ease;
 }
 .keys .key .txt {
   opacity: 1;
   font-size: 1rem;
   color: gold;
   margin-top: 0.5rem;
+}
+.play {
+  border: 3pt solid gold;
+  width: 12rem;
+  height: 7rem;
 }
 body {
   background-image: url(../assets/background.jpg);
