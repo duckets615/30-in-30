@@ -145,24 +145,27 @@ table {
   justify-content: center;
   width: 10rem;
   height: 5rem;
-  border: 3pt solid black;
   margin: 30rem 1rem;
   padding: 3rem;
-  transform: all 0.7s ease;
+  transition: all 0.2s ease;
 }
 .keys .key .txt {
-  opacity: 1;
   font-size: 1rem;
   color: gold;
   margin-top: 0.5rem;
 }
+.border {
+  border: 3pt solid black;
+}
 .play {
   border: 3pt solid gold;
-  width: 12rem;
-  height: 7rem;
 }
 body {
   background-image: url(../assets/background.jpg);
   background-size: cover;
   font-size: 62.5%;
+}
+.play {
+  border: 3pt solid gold;
+  transform: scale(1.5);
 }
