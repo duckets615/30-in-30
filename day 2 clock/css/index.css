@@ -137,15 +137,6 @@ table {
   top: 168px;
   left: 167px;
 }
-hr {
-  width: 164px;
-  position: relative;
-  transform-origin: top left;
-  border: 2pt solid black;
-  background: black;
-  top: 145px;
-  left: 86px;
-}
 body {
   background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);
   display: flex;
@@ -163,7 +154,8 @@ body {
   z-index: 1;
 }
 .clock .hour .hourHand {
-  top: 158px;
+  top: 161px;
+  left: 83px;
 }
 .clock .minute {
   z-index: 2;
@@ -172,5 +164,9 @@ body {
   z-index: 3;
 }
 .secondHand {
-  top: 132px;
+  top: 135px;
+  left: 83px;
+}
+.minHand {
+  top: 148px;
 }
